@@ -82,11 +82,6 @@ for c in cities:
 # lat1, lon1 = input('Enter lat1, lon1: ').split(',')
 # lat2, lon2 = input('Enter lat2, lon2: ').split(',')
 
-# lat_upper = max([float(lat1), float(lat2)])
-
-# print(lat1, lon1, lat2, lon2)
-
-# print(lat_upper)
 
 def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
   # within will hold the cities that fall within the specified region
